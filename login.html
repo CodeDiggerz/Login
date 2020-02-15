@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<title>LOGIN</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/new.css" ></link>
+
+<body>
+<u1>
+
+<li>Home</li>
+<li>New</li>
+<li>About</li>
+<li>Contact Us</li>
+
+</u1>
+<div>
+  <form action="view.php" method ="POST">
+   <p>Registered User</p>
+   <br>
+   Username:<br>
+   <input type="text" name="username" placeholder="Enter Username" required >
+   <br>
+   Password:<br>
+   <input type="password" name="Password" placeholder="Enter Password" required >
+   <br>
+   <input type="submit" name="login" value="LOGIN">
+    
+   </form>
+   <form action="first.php" method="POST" >
+   <p>New User</p>
+   <br>
+   Name:<br>
+   <input type="text" name="name" placeholder="Enter Name" required >
+   <br>
+   User Id:<br>
+   <input type="text" name="userid" placeholder ="Select UserId " required >
+   <br>
+   Password:<br>
+   <input type="password" name="Password" placeholder="Choose Password" required >
+   <br>
+   Sex:<br>
+   <select name="sex">
+   <option value="male">Male</option>
+   <option value="female">Female</option>
+   </select>
+   <br>
+   Date of Birth:<br>
+   <input type="date" name="dob">
+   <br>
+   <input type="submit" name="signup" value="SIGN UP">   
+  </form>
+  </div>
+</body>
+</html>

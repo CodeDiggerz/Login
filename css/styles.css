@@ -1,0 +1,114 @@
+input{
+	padding:5px;
+}
+input[type=submit]:hover{
+	background-color:gray;
+	border-radius:10px;
+	box-shadow: 0 6px 6px 0 gray;
+	padding:5px;
+	border-bottom:2px solid white;
+	cursor:pointer;
+	
+}
+
+body {
+font-family: impact;
+  background-image:url("../img/bk1.jpg");
+  
+  
+ 
+}
+
+fieldset {
+  font-family: monotype corsiva,comic sans MS;
+  color: white;
+  font-size:120%;
+  background-color: black;
+  text-align:center;
+  float:right;
+  width:250px;
+  height:200px;
+  border: 1px solid black;
+  border-radius:10px;
+  
+ 
+	
+	margin-right:50px;
+	margin-top:10px;
+	} 
+p{
+	height:80px;
+	width:240px;;
+	background-color:purple;
+	
+	
+	
+	
+}
+ul{
+	
+	list-style-type:lower-roman;
+	
+	
+}
+table{ font-family: monotype corsiva;
+font-size:20px;
+background-color:cyan;
+width:500px;
+text-align:center;
+position:relative;
+animation-name: example;
+animation-duration:3s;
+animation-iteration-count:4;
+animation-timing-function:ease-in; 
+}
+@keyframes example{
+	from {background-color:red; left:0px;
+	
+	   }
+	   
+	 to {background-color:yellow; left:100px;
+	 
+}}
+
+#Result{
+	background-color:white;
+	border:2px dashed black;
+	border-radius:16px;
+	color:black;
+	width:100px;
+	margin-left:auto;
+	margin-right:auto;
+	
+	
+}
+button.Bounce1{
+	position:relative;
+	animation-name:example;
+	animation-duration:2s;
+	animation-iteration-count:2;
+	animation-direction:alternate;
+}
+#Result:hover{
+	animation-name:rot;
+	animation-duration:2s;
+}
+	
+tr{
+
+	border:1px solid black;
+	border-collapse:collapse;
+}
+td:hover{
+	background-color:blue;
+	cursor:pointer;
+	animation-name:rot;
+	animation-duration:2s;
+	animation-direction:alternate;
+	animation-iteration-count:2;
+	
+}
+@keyframes rot{
+	from{}
+	to {transform:rotateY(360deg);}
+}
